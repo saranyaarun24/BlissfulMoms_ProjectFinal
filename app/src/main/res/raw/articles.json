@@ -1,0 +1,34 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "description": "A Food Guide for Pregnant Women",
+      "url": "http://www.parents.com/pregnancy/my-body/nutrition/a-food-guide-for-pregnant-women/",
+      "image": "http://images.parents.mdpcdn.com/sites/parents.com/files/styles/width_360/public/pregnant-woman-eating-peanut-butter.jpg"
+    },
+    {
+      "id": "2",
+      "description": "17 Tips for a Healthy Pregnancy",
+      "url": "http://www.parents.com/pregnancy/my-body/pregnancy-health/healthy-pregnancy-tips",
+      "image": "http://images.parents.mdpcdn.com/sites/parents.com/files/styles/width_360/public/images/p_JIP0007016.jpg"
+    },
+    {
+      "id": "3",
+      "description": "First Trimester of Pregnancy",
+      "url": "http://www.webmd.com/baby/guide/first-trimester-of-pregnancy",
+      "image": "http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/fetal_development_slideshow/phototake_photo_of_8_week_fetus_circle.jpg?resize=300px:*&output-quality=100"
+    },
+    {
+      "id": "4",
+      "description": "Designing a birth plan",
+      "url": "http://www.pregnancy.com.au/birth-choices/birth-information/birth-articles/designing-a-birth-plan.shtml",
+      "image": "http://www.pregnancy.com.au/bm.pix/designing_a_birth_plan.s200x200.jpg"
+    },
+    {
+      "id": "5",
+      "description": "8 common mistakes every pregnant woman makes!",
+      "url": "http://www.thehealthsite.com/pregnancy/common-mistakes-that-woman-make-during-pregnancy-d214/",
+      "image": "http://st1.thehealthsite.com/wp-content/uploads/2014/02/common-mistakes1.jpg"
+    }
+  ]
+}

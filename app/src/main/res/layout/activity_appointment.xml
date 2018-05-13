@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:id="@+id/textAppointmentDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="0.08"
+            android:background="@drawable/my_custom_background"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:text="Date"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textDateView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:gravity="right"
+                android:paddingRight="50dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/textAppointmentTime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="0.08"
+            android:background="@drawable/my_custom_background"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:text="Time"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:gravity="right"
+                android:paddingRight="50dp"
+                android:text="10 : 00 AM"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/textAppointmentDetails"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="0.08"
+            android:background="@drawable/my_custom_background"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp">
+
+            <EditText
+                android:id="@+id/appointmentDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/appointment_desc"
+                android:inputType="textMultiLine" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatAppointmentSave"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorTextHint"
+        android:text="@string/appointment_save" />
+</RelativeLayout>
+

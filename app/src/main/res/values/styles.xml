@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textColorHint">@color/colorText</item>
+        <item name="colorControlNormal">@color/colorText</item>
+        <item name="colorControlActivated">@color/colorText</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Fitbit.Base" parent="@style/Base.Fitbit">
+        <item name="android:textColorPrimary">@color/text_color_primary</item>
+        <item name="android:textColorSecondary">@color/text_color_secondary</item>
+    </style>
+
+    <style name="Theme.Fitbit.Teal" parent="@style/Theme.Fitbit.Base">
+        <item name="colorPrimary">@color/primary_teal</item>
+        <!--<item name="colorPrimaryRecents">@color/primary_teal_for_recent_tasks</item>-->
+        <item name="colorPrimaryDark">@color/primary_dark_teal</item>
+    </style>
+
+    <style name="Fitbit.Translucent.Button" parent="Widget.AppCompat.Button" />
+
+    <!-- Splash Screen theme. -->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

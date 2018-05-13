@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
+        <TextView
+            android:id="@+id/textAppoinmentDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView"
+            android:text="TextView"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textAppoinmentDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textAppoinmentDesc"
+            android:layout_toRightOf="@+id/imageView"
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

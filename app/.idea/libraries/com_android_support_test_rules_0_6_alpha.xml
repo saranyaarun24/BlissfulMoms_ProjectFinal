@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="com.android.support.test:rules-0.6-alpha">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rules-0.6-alpha.aar/068c8ca72f6994e45de5d9fa404cb704/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rules-0.6-alpha.aar/068c8ca72f6994e45de5d9fa404cb704/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/test/rules/0.6-alpha/rules-0.6-alpha-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/test/rules/0.6-alpha/rules-0.6-alpha-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/sync_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sync_fitbit" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewWalking"
+            android:layout_width="0dp"
+            android:layout_height="116dp"
+            android:layout_marginTop="300dp"
+            android:layout_weight="0.99"
+            android:clickable="true"
+            android:background="@drawable/walk_tracking" />
+
+        <ImageView
+            android:id="@+id/imageViewReport"
+            android:layout_width="182dp"
+            android:layout_height="116dp"
+            android:layout_marginTop="300dp"
+            android:clickable="true"
+            android:background="@drawable/complete_report" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewHeart"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_weight="0.73"
+            android:clickable="true"
+            android:background="@drawable/heart_beat_icon" />
+
+        <ImageView
+            android:id="@+id/imageViewSleep"
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="70dp"
+            android:layout_weight="0.73"
+            android:clickable="true"
+            android:background="@drawable/appicons_sleep" />
+    </LinearLayout>
+</RelativeLayout>
+
